@@ -103,7 +103,7 @@ setTimeout(() => this.style.display = "none", 0);
 } function dragEnd(){
 
 
-setTimeout(() => this.style.display = "none", 0);
+setTimeout(() => this.style.display = "block", 0);
 dragItem=null;
 
 }
@@ -127,14 +127,12 @@ function Drop(){
 function dragOver(e)
 {
   e.preventDefault();
-this.style.border=="2px dotted cyan";
 
 } 
 function dragEnter(e)
 { e.preventDefault();
 
 } function dragLeave(){
-this.style.border==none;
 }
 
 </script>
